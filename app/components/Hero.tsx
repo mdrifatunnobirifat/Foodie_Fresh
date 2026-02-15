@@ -1,11 +1,12 @@
+import Image from "next/image";
 export default function Hero() {
   return (
-    <div className="text-center py-20">
-      <h1 className="text-4xl font-bold">Build Your First Landing Page</h1>
-      <p className="mt-4">Using Next.js & Tailwind</p>
-      <button className="mt-6 px-6 py-2 bg-black text-white">
-        Get Started
-      </button>
+    <div className="text-center py-10 my-10 space-y-20">
+        <div>
+           <h1 className=" font-bold font-sans text-emerald-800  text-6xl">Locally Produced <br/>Delivered Direct To<br/> Your Door</h1>
+           <p className="mt-4">Using Next.js & Tailwind</p>
+        </div>
+       
     </div>
   );
 }
