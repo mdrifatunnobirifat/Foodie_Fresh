@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  /* These are your Light Mode colors */
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -12,12 +13,9 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* REMOVED: The @media (prefers-color-scheme: dark) block 
+   This ensures the colors don't flip when the system is in dark mode.
+*/
 
 body {
   background: var(--background);
