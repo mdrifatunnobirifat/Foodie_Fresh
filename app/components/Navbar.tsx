@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Navbar() {
   return (
-    <div className="flex items-center justify-between  p-5 bg-transparent">
+    <div className="flex items-center justify-between  p-5 bg-[#ecfadc]">
         <div className="flex felx-row items-center space-x-2 px-10">
             <Image src="/food-delivery_9510856.png" alt="icon" width={50} height={50}
              className="object-contain"/>
