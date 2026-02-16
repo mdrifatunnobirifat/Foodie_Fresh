@@ -13,48 +13,48 @@ export default function WhoweAre(){
                     vernoi cievrhi vdinruyvf veb vnhvd veiuhnvd 
                     vdnigniudvf vnfunvi mvidhin </h3>
           
-                  <div className=" flex flex-row bg-[#ecfadc] hover:bg-[#c3ec91]  hover:translate-1 cursor-pointer rounded-lg w-100  p-x-2 space-x-4">
+                  <div className=" flex flex-row bg-[#c8ef9b] hover:bg-[#23803a] hover:translate-1 cursor-pointer rounded-lg w-100  p-x-2 space-x-4">
                     <div  className=" mx-1 my-4">
                         <Image src="/food-svgrepo-com.svg" alt="sidde image" width={40} height={5}
                           className="object-contain bg-white  border-b-2 rounded-full"/>
                     </div>
                      <div className="text-left m-2 ">
-                        <h6>Real Product</h6>
+                        <p className="font-sans font-bold text-emerald-950 text-shadow-md">Real Product</p>
                         <p>this is just a demo demo demod emod emodedmo</p>
                       </div>
-                      <div className=" mx-1 my-4">
+                      <div className="m-auto">
                          <Image src="/right-arrow-svgrepo-com.svg" alt="sidde image" width={30} height={5}
                            className="object-contain bg-emerald-700 border-b-5 rounded-full"/>
                       </div>
                   </div>
 
 
-                  <div className=" flex bg-[#ecfadc] hover:bg-[#c3ec91] hover:translate-1 cursor-pointer rounded-lg w-100 p-x-2 space-x-4 ">
+                  <div className=" flex bg-[#c8ef9b] hover:bg-[#23803a] hover:translate-1 cursor-pointer rounded-lg w-100 p-x-2 space-x-4 ">
                        <div  className=" mx-1 my-4">
                         <Image src="/food-svgrepo-com.svg" alt="sidde image" width={40} height={5}
                           className="object-contain bg-white  border-b-2 rounded-full"/>
                       </div>
                       <div className="text-left m-2 ">
-                        <h6>Real Product</h6>
+                        <p className="font-sans font-bold text-emerald-950 text-shadow-md">Real Product</p>
                         <p>this is just a demo demo demod emod emodedmo</p>
                       </div>
-                        <div className=" mx-1 my-4">
+                        <div className=" m-auto">
                          <Image src="/right-arrow-svgrepo-com.svg" alt="sidde image" width={30} height={5}
                            className="object-contain bg-emerald-700 border-b-5 rounded-full"/>
                       </div>
                   </div>
 
 
-                  <div className="flex bg-[#ecfadc] hover:bg-[#c3ec91] hover:translate-1 cursor-pointer rounded-lg w-100 p-x-2 space-x-4">
+                  <div className="flex bg-[#c8ef9b] hover:bg-[#23803a] hover:translate-1 cursor-pointer rounded-lg w-100 p-x-2 space-x-4">
                        <div  className=" mx-1 my-4">
                          <Image src="/food-svgrepo-com.svg" alt="sidde image" width={40} height={5}
                            className="object-contain bg-white  border-b-2 rounded-full"/>
                        </div>
                       <div className="text-left m-2 ">
-                        <h6>Real Product</h6>
+                        <p className="font-sans font-bold  text-emerald-950 text-shadow-md ">Real Product</p>
                         <p>this is just a demo demo demod emod emodedmo</p>
                       </div>
-                        <div className=" mx-1 my-4">
+                        <div className=" m-auto">
                          <Image src="/right-arrow-svgrepo-com.svg" alt="sidde image" width={30} height={5}
                            className="object-contain bg-emerald-700 border-b-5 rounded-full"/>
                       </div>
