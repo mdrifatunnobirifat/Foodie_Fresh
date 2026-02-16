@@ -11,7 +11,7 @@ export default function Hero() {
             <Searchbar/>
         </div>
         <div>
-            <Image src="/vecteezy_fast-delivery-by-scooter-on-mobile-e-commerce-concept_17732847.jpg" alt="image" width={1000} height={300}
+            <Image src="/vecteezy_fast-delivery-by-scooter-on-mobile-e-commerce-concept_17732847.jpg" alt="image" width={1000} height={200}
             className="w-full h-auto object-cover"/>
         </div>
         
