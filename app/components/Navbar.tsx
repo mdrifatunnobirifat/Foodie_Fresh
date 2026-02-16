@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex felx-row items-center space-x-2 md:px-4 lg:px-10">
             <Image src="/food-delivery_9510856.png" alt="icon" width={50} height={50}
              className="object-contain"/>
-            <h1 className="font-bold font-sans md:text-xl lg:text-3xl text-emerald-800 ">Foodelivar</h1>
+            <h1 className="font-bold font-sans md:text-xl lg:text-3xl text-emerald-800 ">Foodie Fresh</h1>
         </div>
       
        <div className="hidden xl:flex items-center font-bold font-sans text-emerald-800 md:space-x-3 lg:space-x-6 xl:space-x-10">
