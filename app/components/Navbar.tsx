@@ -4,10 +4,10 @@ export default function Navbar() {
   return (
     
     <div className="flex items-center  justify-between  p-6 md:p-8 lg:p-10 bg-[#ecfadc]">
-        <div className="flex felx-row items-center space-x-2 md:px-4 lg:px-10">
+        <div className="flex felx-row items-center space-x-2  md:px-4 lg:px-10">
             <Image src="/food-delivery_9510856.png" alt="icon" width={50} height={50}
              className="object-contain"/>
-            <h1 className="font-bold font-sans md:text-xl lg:text-3xl text-emerald-800 ">Foodie Fresh</h1>
+            <h1 className="font-bold font-sans  text-xl md:text-2xl lg:text-3xl text-emerald-800 ">Foodie Fresh</h1>
         </div>
       
        <div className="hidden xl:flex items-center font-bold font-sans text-emerald-800 md:space-x-3 lg:space-x-6 xl:space-x-10">
