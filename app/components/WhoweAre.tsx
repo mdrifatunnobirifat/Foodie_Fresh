@@ -2,7 +2,7 @@ import Image from "next/image";
 import WhoweCard from "./WhoweCard";
 
 export default function WhoweAre() {
-const items=[
+const Item=[
     {heading:"Real Product", para:"mdj smdj msdj msdjf sdmjf"},
     {heading:"Real Product", para:"mdj smdj msdj msdjf sdmjf"},
     {heading:"Real Product", para:"mdj smdj msdj msdjf sdmjf"}
@@ -10,13 +10,14 @@ const items=[
 ]
 
   return (
-    <div className="flex flex-row items-center px-4 py-4 max-w-full">
+    <div className="flex flex-col lg:flex-row items-center justify-center  py-10 gap-10">
 {/* Left*/}
-      <div className=" w-full lg:w-1/2">
-        <h1 className="text-3xl font-bold text-emerald-950">Who We Are &<br/>What We Do</h1>
+      <div className=" flex flex-col w-full lg:w-1/2  items-center lg:items-baseline-last text-center lg:text-center  ">
+        <h1 className="text-3xl  lg:text-4xl font-bold text-emerald-950">Who We Are &<br/>What We Do</h1>
         <p className="mt-1 text-gray-700">Welcome to our delivery service.<br/>Welcome to our delivery service.</p>
-         <div className="space-y-4">
-            {items.map((item)=>(
+         <div className="flex flex-col items-center lg:items-start space-y-4 max-w-sm md:max-w-lg mx-auto lg:mx-0 w-full">
+
+            {Item.map((item)=>(
                 <WhoweCard
                    h={item.heading}
                    p={item.para}
@@ -24,13 +25,11 @@ const items=[
             ))}
 
          </div>
-        <div>
-
-        </div>
+        
       </div>
 
 {/* Right*/}
-      <div className=" hidden lg:block lg:w-1/2 relative h-[300px] md:h-[500px]"> 
+      <div className="hidden lg:block lg:w-1/2 relative h-[300px] md:h-[500px] w-full"> 
         <Image src="/vecteezy_fast-delivery-by-scooter-on-mobile-e-commerce-concept_17732847.jpg" alt="Delivery scooter icon"fill
           className="object-contain" />
       </div>
