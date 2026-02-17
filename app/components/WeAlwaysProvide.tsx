@@ -4,12 +4,12 @@ export default function WeAlwaysProvide() {
   return (
 
     <div className="flex flex-col bg-[#ecfadc]  items-center justify-center py-10  ">
-        <div className=" flex flex-col lg:flex-row w-5xl  py-5 items-center text-center lg:text-left  justify-center">
+        <div className=" flex flex-col lg:flex-row w-fullS  py-5 items-center text-center lg:text-left  justify-center">
             <h1 className="text-2xl  lg:text-3xl font-bold text-emerald-950 text-left  ">We Always Provide <br/> You The Best In town</h1>
             <p className="text-gray-700 text-xs md:text-md items-center   ml-2 md:ml-10  p-1">We Always Provide We Always Provide We Always Provide <br/>We Always Provide We Always Provide Always Provide <br/>We Always Provide We Always Provide </p>
         </div>
 
-        <div className="flex w-xs md:w-lg h-auto lg:w-2xl">
+        <div className="flex w-xs md:w-lg h-auto lg:w-3xl">
         <Image src="/WhatWeProvide.png" alt="pic" width={700} height={400}
         className="object-cover"/>
 
