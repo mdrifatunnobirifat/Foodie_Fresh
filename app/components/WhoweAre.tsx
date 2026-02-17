@@ -12,7 +12,7 @@ const Item=[
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center px-0 py-10  ">
 {/* Left*/}
-      <div className=" flex flex-col w-full lg:w-1/2  items-center lg:items-baseline-last text-center lg:text-center">
+      <div className=" flex flex-col w-full lg:w-1/2  items-center lg:items-baseline-last text-center lg:text-center ml-0 lg:ml-10 ">
         <h1 className="text-3xl  lg:text-4xl font-bold text-emerald-950 text-left">Who We Are & <br/>What We Do</h1>
         <p className="text-gray-700">Welcome to our delivery service.<br/>Welcome to our delivery service.</p>
          <div className="flex flex-col items-center lg:items-start space-y-4 max-w-sm md:max-w-lg mx-auto lg:mx-0 w-full">
@@ -31,7 +31,7 @@ const Item=[
 
 {/* Right*/}
       <div className="hidden lg:block lg:w-1/2 relative h-[300px] md:h-[500px] w-full"> 
-        <Image src="/vecteezy_fast-delivery-by-scooter-on-mobile-e-commerce-concept_17732847.jpg" alt="Delivery scooter icon"fill
+        <Image src="/WhoweAre.png" alt="Delivery scooter icon"fill
           className="object-contain" />
       </div>
     </div>

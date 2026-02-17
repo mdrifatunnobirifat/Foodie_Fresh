@@ -7,7 +7,7 @@ interface CardProps {
 export default function WhoweCard({h,p}:CardProps)
 {
     return (
-    <div className="flex items-center bg-[#e5fae9] hover:bg-[#23803a] p-3 rounded-xl cursor-pointer transition-all group w-full max-w-md">
+    <div className="flex items-center bg-[#e5fae9] hover:bg-[#23803a] p-3 rounded-xl cursor-pointer transition-all group w-full sm:px-10 max-w-md">
       
       <div className="bg-white h-12 w-12 rounded-full flex items-center justify-center overflow-hidden p-1 shadow-sm">
         <Image src="/food-svgrepo-com.svg" alt="icon" width={40} height={40} 
