@@ -4,6 +4,7 @@ import Features from "@/app/components/Features";
 import Footer from "@/app/components/Footer";
 import Searchbar from "@/app/components/Searchbar";
 import WhoweAre from "./components/WhoweAre";
+import WeAlwaysProvide from "./components/WeAlwaysProvide";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <WhoweAre/>
+      <WeAlwaysProvide/>
       <Footer />
       
     </div>
