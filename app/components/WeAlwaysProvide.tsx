@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function WeAlwaysProvide() {
   return (
 
-    <div className="flex flex-col bg-[#ecfadc]  items-center justify-center px-10 py-10 overflow-hidden [zoom:1.2] 2xl:[zoom:2.5] ">
-        <div className=" flex flex-col lg:flex-row w-full  py-5 items-center text-center lg:text-center  justify-evenly  ">
+    <div className="flex flex-col bg-[#ecfadc]  items-center justify-between xl:px-45 py-6 overflow-hidden  2xl:[zoom:2.3] ">
+        <div className=" flex flex-col lg:flex-row w-full  py-5 items-center text-center  justify-evenly  ">
             <h1 className="text-xl  lg:text-3xl font-bold text-emerald-950 text-left  ">We Always Provide <br/> You The Best In town</h1>
-            <p className="text-gray-700 text-sm md:text-base text-center lg:text-left max-w-md">We Always Provide We Always Provide We Always Provide <br/>We Always Provide We Always Provide Always Provide <br/>We Always Provide We Always Provide </p>
+            <p className="text-gray-700 text-xs md:text-sm text-center lg:text-left max-w-md">We Always Provide We Always Provide We Always Provide <br/>We Always Provide We Always Provide Always Provide <br/>We Always Provide We Always Provide </p>
         </div>
 
         <div className="flex w-full md:w-full lg:w-full justify-center p-2 md:px-10 lg:p-0">
