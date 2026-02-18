@@ -14,7 +14,7 @@ export default function OrganicFoods() {
             <div className="flex flex-row items-center justify-center   ">
                 <div className=" bg-white py-15 px-18 text-left  ">
                 
-                    <h1 className="text-2xl  lg:text-3xl font-bold font-sans text-emerald-950 text-center lg:text-left ">Organic <br/>Fresh Foods</h1>
+                    <h1 className=" text-xl md:text-2xl  lg:text-3xl font-bold font-sans text-emerald-950 text-center lg:text-left ">Organic <br/>Fresh Foods</h1>
                     <p className="text-gray-700  font-sans text-xs md:text-sm text-center lg:text-left ">Organic Fresh Foods <br/> fresh foods fresh foods<br/> food amijc ciux idn uxh</p>
                     <div className="flex flex-row text-sm gap-10">
                        <div >
@@ -37,9 +37,11 @@ export default function OrganicFoods() {
 
                 </div>
 
-                <div className="hidden md:block">
+                <div className="hidden md:block">    
                     <Image src="/organicfruits.png" alt="pic" width={410} height={370}
                     className="object-contain"/>
+                    <div className="h-px  w-full lg:w-xs bg-emerald-800 " />
+                    <div className="w-py  bg-emerald-800 " />
                 </div>
             </div>
 
@@ -54,12 +56,14 @@ export default function OrganicFoods() {
             {/*lower div */}
             <div className="flex flex-row items-center justify-center   ">
                 <div className="hidden md:block">
+                    <div className="h-px  w-full lg:w-xs bg-emerald-800 " />
                     <Image src="/organicfruitbasket.png" alt="pic" width={410} height={370}
                     className="object-contain"/>
+                    
                 </div>
 
                 <div className=" bg-white py-15 px-18 text-left ">
-                    <h1 className="text-2xl  lg:text-3xl font-bold font-sans text-emerald-950 text-center lg:text-left">More Than<br/>50 Products </h1>
+                    <h1 className="text-xl md:text-2xl   lg:text-3xl font-bold font-sans text-emerald-950 text-center lg:text-left">More Than<br/>50 Products </h1>
                     <p className="text-gray-700  font-sans text-xs md:text-sm text-center lg:text-left max-w-md">Organic Fresh Foods <br/> fresh foods fresh foods<br/> food amijc ciux idn uxh</p>
                     <div className="flex flex-row text-sm gap-10">
                        <div>

@@ -31,7 +31,7 @@ const Item=[
 
 {/* Right*/}
       <div className="hidden lg:block lg:w-1/2 relative h-[300px] md:h-[500px] w-full"> 
-        <Image src="/WhoweAre.png" alt="Delivery scooter icon"fill
+        <Image src="/WhoweAre.png" alt="Delivery scooter icon" fill
           className="object-contain" />
       </div>
     </div>
