@@ -5,6 +5,7 @@ import Footer from "@/app/components/Footer";
 import Searchbar from "@/app/components/Searchbar";
 import WhoweAre from "./components/WhoweAre";
 import WeAlwaysProvide from "./components/WeAlwaysProvide";
+import OrganicFoods from "./components/OrganicFoods";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <WhoweAre/>
       <WeAlwaysProvide/>
+      <OrganicFoods/>
       <Footer />
       
     </div>
