@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function WeAlwaysProvide() {
   return (
 
-    <div className="flex flex-col bg-[#ecfadc]  items-center justify-between xl:px-45 py-6 overflow-hidden  2xl:[zoom:2.3] ">
-        <div className=" flex flex-col lg:flex-row w-full  py-5 items-center text-center  justify-evenly  ">
+    <div className="flex flex-col bg-[#ecfadc]  items-center justify-between xl:px-45 py-6 overflow-hidden   ">
+        <div className=" flex flex-col lg:flex-row w-full  py-5 items-center text-center  justify-center lg:space-x-30  ">
             <h1 className="text-xl  lg:text-3xl font-bold text-emerald-950 text-left  ">We Always Provide <br/> You The Best In town</h1>
             <p className="text-gray-700 text-xs md:text-sm text-center lg:text-left max-w-md">We Always Provide We Always Provide We Always Provide <br/>We Always Provide We Always Provide Always Provide <br/>We Always Provide We Always Provide </p>
         </div>
@@ -15,7 +15,7 @@ export default function WeAlwaysProvide() {
 
         </div>
 
-        <div  className="flex flex-col-reverse lg:flex-row w-full  py-5 items-center justify-evenly">
+        <div  className="flex flex-col-reverse lg:flex-row w-full  py-5 items-center justify-center space-x-10">
             <button className="text-xs md:text-sm bg-emerald-800 text-white px-2  md:px-6  py-1 md:py-2  rounded-full  text-md hover:bg-emerald-700 transition  whitespace-nowrap  ">
               Partner with us
             </button>
