@@ -1,17 +1,17 @@
 import Image from "next/image";
 export default function Footer() {
   return (
-    <div className="text-center py-5  bg-emerald-950">
+    <div className="text-center py-5 px-5 bg-emerald-950">
       
       {/* 1st div*/}
-      <div className="flex flex-col md:flex-row w-full  justify-evenly  text-center md:text-left  ">
+      <div className="flex flex-col md:flex-row w-full  justify-evenly  text-center md:text-left  gap-3 ">
         <div className="flex flex-col ">
           <div className="flex flex-row items-start  gap-1">
             <Image src="/food-delivery_9510856.png" alt="icon" width={46} height={38}
                      className="object-contain"/>
              <h1 className="lg:text-3xl text-2xl  text-white font-bold font-sans" >Foodie Fresh</h1>
           </div>
-              <p className="  text-xs lg:text-sm text-white" >Foodie  e oodie  oodie oodie oodie ooe oodie <br/> oodie oodie oodie oooodie  oodie oodie oodie oodie  Fresh</p>
+              <p className="  text-xs lg:text-sm text-white" >Foodie  e oodie  oodie <br/>oodie oodie ooe oodie <br/> oodie oodie oodie oooodie  oodie oodie oodie oodie  Fresh</p>
               <br></br>
                 <h1 className=" text-sm lg:text-md text-white font-bold font-sans" >Follow Us</h1>
                 <div className="flex flex-row gap-2">
@@ -90,7 +90,7 @@ export default function Footer() {
       </div>
 
     {/* 2nd div*/ }
-      <div className="flex flex-col md:flex-row w-full justify-baseline py-3  md:px-30 text-left   sm:gap-30 md:gap-70">
+      <div className="flex flex-col md:flex-row w-full justify-baseline py-3  md:px-10 text-left   sm:gap-30 md:gap-90">
          <div className=" text-neutral-300   font-sans ">
            <h1 className="text-xl font-bold py-2">Get Our App From</h1>
            <ul className=" text-sm list-none space-y-2">
@@ -116,12 +116,12 @@ export default function Footer() {
 
       {/*3rd div */}
 
-      <div className="flex  flex-col md:flex-row  pt-10 justify-between items-start">
+      <div className="flex  flex-col md:flex-row  pt-10 justify-center items-center gap-30">
         <div className="text-sm text-white">
             © 2023, Fooddeliver - Sustainable Food To Your Door All rights reserved
         </div>
           
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
             <div className="text-md text-white">Secured Payment Gateways</div>
             <div className="flex flex-row w-full justify-baseline   px-20 gap-5">
                  <Image src="/visa-svgrepo-com.svg" alt="playstore" width={50} height={50}
