@@ -21,7 +21,7 @@ export default function WeAlways() {
         </p>
       </div>
 
-      <div className="flex w-full md:w-full lg:w-full justify-center pb-3 md:pb-0 px-5 md:px-20 lg:px-30  xl:px-70 2xl:px-160">
+      <div className="flex w-full md:w-full lg:w-full justify-center pb-3 md:pb-0 px-5 md:px-20 lg:px-30  xl:px-50 2xl:px-90">
       <div className="flex flex-col md:flex-row items-center md:items-end justify-center gap-2 md:gap-3 w-full ">
           
           {Item.map((item)=>(
