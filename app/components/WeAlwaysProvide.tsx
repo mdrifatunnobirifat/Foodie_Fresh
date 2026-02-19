@@ -15,7 +15,7 @@ export default function WeAlwaysProvide() {
 
         </div>
 
-        <div  className="flex flex-col-reverse lg:flex-row w-full  py-5 items-center justify-center space-x-10">
+        <div  className="flex flex-col-reverse lg:flex-row w-full  py-5   items-center justify-center md:space-x-10">
             <button className="text-xs md:text-sm bg-emerald-800 text-white px-2  md:px-6  py-1 md:py-2  rounded-full  text-md hover:bg-emerald-700 transition  whitespace-nowrap  ">
               Partner with us
             </button>
