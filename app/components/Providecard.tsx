@@ -8,7 +8,7 @@ interface ProvideCardProps {
 
 export function Providecard({ title, description, icon }: ProvideCardProps) {
   return (
-    <div className="flex flex-col items-center bg-[#e9f5db]  py-7 md:py-20   rounded-xl md:rounded-t-full  cursor-pointer transition-all group w-screen">
+    <div className="flex flex-col items-center bg-[#e9f5db]  py-4 md:py-20   rounded-xl md:rounded-t-full  cursor-pointer transition-all group w-screen">
      
    
       <div className="  p-2 md:pb-5 lg:pb-10 flex items-center justify-center  ">

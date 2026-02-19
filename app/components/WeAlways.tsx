@@ -12,7 +12,7 @@ export default function WeAlways() {
   return (
     <div className="bg-[#1b4332] text-white px-4 lg:px-20 font-sans pt-5 flex flex-col w-screen ">
       
-      <div className="text-center w-full pb-10 ">
+      <div className="text-center w-full pb-10 lg:pb-15 ">
         <h1 className="text-xl lg:text-3xl md:text-2xl font-bold p-4">
           We Always Provide <br /> You The Best In Town
         </h1>
@@ -21,7 +21,7 @@ export default function WeAlways() {
         </p>
       </div>
 
-      <div className="flex w-full md:w-full lg:w-full justify-center  px-5 md:px-20 lg:px-30  xl:px-70 2xl-px-150">
+      <div className="flex w-full md:w-full lg:w-full justify-center pb-3 md:pb-0 px-5 md:px-20 lg:px-30  xl:px-70 2xl:px-160">
       <div className="flex flex-col md:flex-row items-center md:items-end justify-center gap-2 md:gap-3 w-full ">
           
           {Item.map((item)=>(
