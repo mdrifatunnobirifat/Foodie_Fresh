@@ -7,6 +7,7 @@ import WhoweAre from "./components/WhoweAre";
 import WeAlwaysProvide from "./components/WeAlwaysProvide";
 import OrganicFoods from "./components/OrganicFoods";
 import WeAlways from "./components/WeAlways";
+import LetsWorkTogether from "./components/LetsWorkTogether";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <WeAlwaysProvide/>
       <OrganicFoods/>
       <WeAlways/>
+      <LetsWorkTogether/>
       <Footer />
       
     </div>
