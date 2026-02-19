@@ -6,6 +6,7 @@ import Searchbar from "@/app/components/Searchbar";
 import WhoweAre from "./components/WhoweAre";
 import WeAlwaysProvide from "./components/WeAlwaysProvide";
 import OrganicFoods from "./components/OrganicFoods";
+import WeAlways from "./components/WeAlways";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <WhoweAre/>
       <WeAlwaysProvide/>
       <OrganicFoods/>
+      <WeAlways/>
       <Footer />
       
     </div>
