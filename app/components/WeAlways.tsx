@@ -4,9 +4,9 @@ import { Providecard } from "./Providecard";
 export default function WeAlways() {
 
   const Item=[
-    {title:"Great Daily Deal", para:"mdj smdj msdj msdjf sdmjf",icon:"/handshake-svgrepo-com.svg"},
-    {title:"Delivery", para:"mdj smdj msdj msdjf sdmjf",icon:"/map-pointer-svgrepo-com.svg"},
-    {title:"Best Prices Ever", para:"mdj smdj msdj msdjf sdmjf",icon:"/sale-shop-event-svgrepo-com.svg"}
+    {id:"1",title:"Great Daily Deal", para:"mdj smdj msdj msdjf sdmjf",icon:"/handshake-svgrepo-com.svg"},
+    {id:"2",title:"Delivery", para:"mdj smdj msdj msdjf sdmjf",icon:"/map-pointer-svgrepo-com.svg"},
+    {id:"3",title:"Best Prices Ever", para:"mdj smdj msdj msdjf sdmjf",icon:"/sale-shop-event-svgrepo-com.svg"}
     
 ]
   return (
@@ -26,6 +26,7 @@ export default function WeAlways() {
           
           {Item.map((item)=>(
                     <Providecard
+                       key={item.id}
                        title={item.title}
                        description={item.para}
                        icon={item.icon}

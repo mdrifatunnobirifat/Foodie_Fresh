@@ -2,8 +2,8 @@ import Image from "next/image";
 import LetsWorkcard from "./LetsWorkcard";
 
 const Item=[
-    {image:"/partnerwithus.png", title:"Partner With Us", description:"xod xdu x oi vgi  cfvgji vfogn figvn boghmi cdubyvg cdbfg"},
-    {image:"/ridewithus.png", title:"Ride With Us", description:"xod xdu x oi vgi  cfvgji vfogn figvn boghmi cdubyvg cdbfg"},
+    {id:"1",image:"/partnerwithus.png", title:"Partner With Us", description:"xod xdu x oi vgi  cfvgji vfogn figvn boghmi cdubyvg cdbfg"},
+    {id:"2",image:"/ridewithus.png", title:"Ride With Us", description:"xod xdu x oi vgi  cfvgji vfogn figvn boghmi cdubyvg cdbfg"},
 ]
 
 export default function LetsWorkTogether() {
@@ -18,6 +18,8 @@ export default function LetsWorkTogether() {
                 <div className="flex  flex-col md:flex-row  items-center justify-center p-10">
                     {Item.map((item)=>(
                      <LetsWorkcard
+                       
+                        key={item.id}
                         icon={item.image}
                         title={item.title}
                         description={item.description}

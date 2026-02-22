@@ -3,9 +3,9 @@ import WhoweCard from "./WhoweCard";
 
 export default function WhoweAre() {
 const Item=[
-    {heading:"Real Product", para:"mdj smdj msdj msdjf sdmjf"},
-    {heading:"Real Product", para:"mdj smdj msdj msdjf sdmjf"},
-    {heading:"Real Product", para:"mdj smdj msdj msdjf sdmjf"}
+    {id:"1",heading:"Real Product", para:"mdj smdj msdj msdjf sdmjf"},
+    { id:"2",heading:"Real Product", para:"mdj smdj msdj msdjf sdmjf"},
+    {id:"3",heading:"Real Product", para:"mdj smdj msdj msdjf sdmjf"}
     
 ]
 
@@ -19,7 +19,7 @@ const Item=[
 
             {Item.map((item)=>(
                 <WhoweCard
-    
+                   key={item.id}
                    h={item.heading}
                    p={item.para}
                    />
@@ -30,7 +30,7 @@ const Item=[
       </div>
 
 {/* Right*/}
-      <div className="hidden lg:block lg:w-1/2 relative h-[300px] md:h-[500px] w-full"> 
+      <div className="hidden lg:block lg:w-1/2 relative h-75 md:h-125 w-full"> 
         <Image src="/WhoweAre.png" alt="Delivery scooter icon" fill
           className="object-contain" />
       </div>

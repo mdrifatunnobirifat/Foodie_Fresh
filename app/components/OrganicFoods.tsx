@@ -3,9 +3,9 @@ import OrganicFoodcard from "./OrganicFoodcard";
 
 export default function OrganicFoods() {
     const Item=[
-    {heading:"Real Product"},
-    {heading:"Real Product"},
-    {heading:"Real Product"}
+    {id:"1",heading:"Real Product"},
+    {id:"2",heading:"Real Product"},
+    {id:"3",heading:"Real Product"}
     
 ]
     return(
@@ -20,6 +20,7 @@ export default function OrganicFoods() {
                        <div >
                               {Item.map((item)=>(
                                         <OrganicFoodcard
+                                           key={item.id}
                                            h={item.heading}
                                            />
                                     ))}
@@ -28,6 +29,7 @@ export default function OrganicFoods() {
                         <div>
                              {Item.map((item)=>(
                                         <OrganicFoodcard
+                                          key={item.id}
                                            h={item.heading}
                                            />
                                     ))}
@@ -69,6 +71,7 @@ export default function OrganicFoods() {
                        <div>
                               {Item.map((item)=>(
                                         <OrganicFoodcard
+                                           key={item.id}
                                            h={item.heading}
                                            />
                                     ))}
@@ -77,6 +80,7 @@ export default function OrganicFoods() {
                         <div>
                              {Item.map((item)=>(
                                         <OrganicFoodcard
+                                           key={item.id}
                                            h={item.heading}
                                            />
                                     ))}
