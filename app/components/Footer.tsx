@@ -1,10 +1,10 @@
 import Image from "next/image";
 export default function Footer() {
   return (
-    <div className="text-center py-5 px-2   bg-emerald-950">
+    <div className="text-center py-5 px-10   bg-emerald-950">
       
       {/* 1st div*/}
-      <div className="flex flex-col md:flex-row w-full  justify-evenly   text-center md:text-left  gap-3  ">
+      <div className="flex flex-col md:flex-row w-full  justify-between   text-center md:text-left  gap-3  ">
         <div className="flex flex-col ">
           <div className="flex flex-row  items-center  justify-center md:justify-start gap-1">
             <Image src="/food-delivery_9510856.png" alt="icon" width={46} height={38}
@@ -90,12 +90,12 @@ export default function Footer() {
       </div>
 
     {/* 2nd div*/ }
-      <div className="flex flex-col md:flex-row w-full  justify-baseline  py-3  md:px-10 md:text-left text-center   sm:gap-30 md:gap-90">
+      <div className="flex flex-col md:flex-row w-full  justify-start  py-3 md:text-left text-center  gap-5 md:gap-90">
          <div className=" text-neutral-300   font-sans ">
-           <h1 className="text-xl font-bold  py-2">Get Our App From</h1>
-           <ul className=" text-sm list-none  justify-items-center  md:justify-items-start   space-y-2">
+           <h1 className=" text-md md:text-xl font-bold  py-2">Get Our App From</h1>
+           <ul className=" list-none  justify-items-center  md:justify-items-start   space-y-2">
              <li><Image src="/getitonGoogle.png" alt="playstore" width={150} height={50}
-             className="object-contain"/></li>
+             className="object-contain "/></li>
              <li><Image src="/getitonAppstore.png" alt="playstore" width={150} height={50}
              className="object-contain"/></li>
             
@@ -103,7 +103,7 @@ export default function Footer() {
           </div>
 
           <div className=" text-neutral-300   font-sans md:text-left text-center ">
-           <h1 className="text-xl font-bold py-2">Scan QR Code</h1>
+           <h1 className="text-md md:text-xl font-bold py-2">Scan QR Code</h1>
            <ul className=" text-sm list-none justify-items-center md:justify-items-start  space-y-1 ">
             <li><Image src="/qr-code-svgrepo-com.svg" alt="playstore" width={80} height={50}
              className="object-contain filler invert"/></li>
@@ -116,7 +116,7 @@ export default function Footer() {
 
       {/*3rd div */}
 
-      <div className="flex  flex-col md:flex-row  pt-10 justify-center items-center gap-20">
+      <div className="flex  flex-col-reverse md:flex-row  pt-10  justify-between items-center   gap-15 md:gap-50">
         <div className="text-sm text-white">
             © 2023, Fooddeliver - Sustainable Food To Your Door All rights reserved
         </div>
