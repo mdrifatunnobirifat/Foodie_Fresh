@@ -10,9 +10,11 @@ export default function Hero() {
         <div>
             <Searchbar/>
         </div>
-        <div className=" w-full md:w-full lg:w-full h-full  px-0 md:px-4 lg:px-3 items-center justify-items-center">
-            <Image src="/vecteezy_fast-delivery-by-scooter-on-mobile-e-commerce-concept_17732847.jpg" alt="image" width={2000} height={200}
-            className=" object-cover w-fill h-auto"/>
+        <div className=" overflow-hidden  rounded-t-full ">
+          <div className="  items-center justify-items-center">
+              <Image src="/vecteezy_fast-delivery-by-scooter-on-mobile-e-commerce-concept_17732847.jpg" alt="image" width={700} height={200}
+              className=" object-cover w-full h-auto"/>
+          </div>
         </div>
         
        
