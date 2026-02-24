@@ -9,10 +9,10 @@ export default function Searchbar() {
                 className="object-contain"/>
            </div>
            <div className="flex-1 w-full">
-                <input  type="address" placeholder="Enter address to find nearby shops " className="w-full p-2  md:p-3 text-sm md:text-base outline-none bg-transparent text-gray-700 placeholder-gray-900 text-center md:text-left"/>
+                <input  type="address" placeholder="Enter address to find nearby shops " className="w-full p-1  md:p-3 text-xs md:text-base outline-none bg-transparent text-gray-700 placeholder-gray-900 text-center md:text-left"/>
            </div>
            <div className="flex ">
-               <button className="bg-emerald-800 text-white px-4 py-2 md:px-6 md:py-3 rounded-full text-sm md:text-base ">Shop now</button>
+               <button className="bg-emerald-800 text-white px-2 py-2 md:px-6 md:py-3 rounded-full text-xs md:text-md ">Shop now</button>
            </div>
            <div>
             

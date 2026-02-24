@@ -41,9 +41,9 @@ export default function OrganicFoods() {
 
                 </div>
                 <div className="w-px  sm:h-30 lg:h-50 bg-emerald-800  m-auto" />
-                <div className="relative" >  
+                <div className="relative " >  
                     <Image src="/organicfruits.png" alt="pic" width={410} height={370}
-                    className="object-contain "/>
+                    className="object-contain w-62.5 md:w-87.5 lg:w-102.5 h-auto mx-auto"/>
                     <div className="h-px sm:w-30 lg:w-50  bg-emerald-800  m-auto" />
                 </div>
                  <div className="block sm:hidden h-px sm:w-30 lg:w-50  bg-emerald-800  m-auto" />
@@ -66,7 +66,7 @@ export default function OrganicFoods() {
                  
                  <div className="h-px sm:w-30 lg:w-50 bg-emerald-800 m-auto " />
                     <Image src="/organicfruitbasket.png" alt="pic" width={410} height={370}
-                    className="object-contain"/>  
+                    className="object-contain w-62.5 md:w-87.5 lg:w-102.5 h-auto "/>  
                  </div>
                 <div className="w-px  sm:h-30 lg:h-50 bg-emerald-800 m-auto  " />
 
