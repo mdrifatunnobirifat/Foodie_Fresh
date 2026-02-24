@@ -13,11 +13,11 @@ export default function OrganicFoods() {
             {/*upper div */}
             <div className="flex   flex-col-reverse md:flex-row items-center justify-center   ">
 
-                <div className=" bg-white py-15 px-18  text-left  ">
+                <div className=" bg-transparent  py-15 px-18  text-left  ">
              
-                    <h1 className=" text-xl md:text-2xl  lg:text-3xl font-bold font-sans text-emerald-950 text-left md:text-center lg:text-left ">Organic <br/>Fresh Foods</h1>
-                    <p className="text-gray-700  font-sans text-xs md:text-sm text-left md:text-centerlg:text-left ">Organic Fresh Foods <br/> fresh foods fresh foods<br/> food amijc ciux idn uxh</p><br/>
-                    <div className="flex md:flex-row  flex-col text-sm gap-1 md:gap-10">
+                    <h1 className=" text-xl md:text-2xl  lg:text-3xl font-bold font-sans text-emerald-950  ">Organic <br/>Fresh Foods</h1>
+                    <p className="text-gray-700  font-sans text-xs md:text-sm  ">Organic Fresh Foods <br/> fresh foods fresh foods<br/> food amijc ciux idn uxh</p><br/>
+                    <div className="flex flex-row  text-sm gap-10">
                        <div >
                               {Item.map((item)=>(
                                         <OrganicFoodcard
@@ -46,14 +46,14 @@ export default function OrganicFoods() {
                     className="object-contain "/>
                     <div className="h-px sm:w-30 lg:w-50  bg-emerald-800  m-auto" />
                 </div>
-                 <div className="block md:hidden h-px sm:w-30 lg:w-50  bg-emerald-800  m-auto" />
-                 <div className="block md:hidden w-px sm:h-30 lg:h-50  bg-emerald-800  m-auto" />
+                 <div className="block sm:hidden h-px sm:w-30 lg:w-50  bg-emerald-800  m-auto" />
+                 <div className="block sm:hidden w-px sm:h-30 lg:h-50  bg-emerald-800  m-auto" />
             </div>
 
             
-         <div className="md:absolute flex flex-col items-center justify-center gap-2">
+         <div className="md:absolute flex flex-col items-center justify-center  gap-2">
     
-             <button className="bg-emerald-800 text-white text-xs  md:text-sm w-17 md:w-20 lg:w-25  h-14 md:h-20 lg:h-24 rounded-full flex items-center justify-center hover:bg-emerald-700 transition">
+             <button className="bg-emerald-800 text-white text-xs  md:text-sm w-15 md:w-20 lg:w-25  h-15 md:h-20 lg:h-24 rounded-full flex items-center justify-center hover:bg-emerald-700 transition">
                  Shop Now
              </button>
          </div>
@@ -71,9 +71,9 @@ export default function OrganicFoods() {
                 <div className="w-px  sm:h-30 lg:h-50 bg-emerald-800 m-auto  " />
 
                 <div className="bg-white py-15 px-18 text-left ">
-                    <h1 className="text-xl md:text-2xl   lg:text-3xl font-bold font-sans text-emerald-950   text-left md:text-center lg:text-left">More Than<br/>50 Products </h1>
-                    <p className="text-gray-700  font-sans text-xs md:text-sm text-left md:text-center lg:text-left max-w-md">Organic Fresh Foods <br/> fresh foods fresh foods<br/> food amijc ciux idn uxh</p><br/>
-                    <div className="flex  flex-col md:flex-row text-sm  gap-1 md:gap-10">
+                    <h1 className="text-xl md:text-2xl   lg:text-3xl font-bold font-sans text-emerald-950 ">More Than<br/>50 Products </h1>
+                    <p className="text-gray-700  font-sans text-xs md:text-sm  max-w-md">Organic Fresh Foods <br/> fresh foods fresh foods<br/> food amijc ciux idn uxh</p><br/>
+                    <div className="flex  flex-row text-sm  gap-10">
                        <div>
                               {Item.map((item)=>(
                                         <OrganicFoodcard
