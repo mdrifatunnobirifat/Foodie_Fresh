@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="flex flex-col ">
           <div className="flex flex-row  items-center  justify-center md:justify-start gap-1">
             <Image src="/food-delivery_9510856.png" alt="icon" width={46} height={38}
-                     className="object-contain"/>
-             <h1 className="lg:text-3xl text-2xl  text-white font-bold font-sans" >Foodie Fresh</h1>
+                     className="object-contain "/>
+             <h1 className=" text-xl lg:text-3xl md:text-2xl  text-white font-bold font-sans" >Foodie Fresh</h1>
           </div>
               <p className="  text-xs lg:text-sm text-white" >Foodie  e oodie  oodie <br/>oodie oodie ooe oodie <br/> oodie oodie oodie oooodie  oodie oodie oodie oodie  Fresh</p>
               <br></br>
@@ -26,8 +26,8 @@ export default function Footer() {
         </div>
 
         <div className=" text-neutral-300  font-sans ">
-           <h1 className="text-lg font-bold py-2">Company</h1>
-           <ul className=" text-sm list-none space-y-2">
+           <h1 className=" text-sm md:text-lg font-bold py-2">Company</h1>
+           <ul className="  text-xs md:text-sm list-none space-y-2">
              <li>About us</li>
              <li>Delivary Information</li>
              <li>Privacy Policy</li>
@@ -38,8 +38,8 @@ export default function Footer() {
           </div>
 
         <div className=" text-neutral-300   font-sans ">
-           <h1 className="text-lg font-bold py-2">Account</h1>
-           <ul className=" text-sm list-none space-y-2">
+           <h1 className=" text:sm md:text-lg font-bold py-2">Account</h1>
+           <ul className="  text-xs md:text-sm list-none space-y-2">
              <li>Sign In</li>
              <li>View Cart</li>
              <li>My Wishlist</li>
@@ -51,8 +51,8 @@ export default function Footer() {
         </div>
 
         <div className=" text-neutral-300   font-sans ">
-           <h1 className="text-lg font-bold py-2">Corporate</h1>
-           <ul className=" text-sm list-none space-y-2">
+           <h1 className="  text-sm md:text-lg font-bold py-2">Corporate</h1>
+           <ul className=" text-xs md:text-sm list-none space-y-2">
              <li>Become a Merchant</li>
              <li>Become a Rider</li>
              <li>Foodeliver Business</li>
@@ -64,8 +64,8 @@ export default function Footer() {
           </div>
 
         <div className=" text-neutral-300    font-sans">
-           <h1 className="text-lg font-bold py-2">Address</h1>
-           <ul className=" text-sm list-none  space-y-2">
+           <h1 className="text:sm md:text-lg font-bold py-2">Address</h1>
+           <ul className="  text-xs md:text-sm list-none  space-y-2">
              <li className="flex flex-row  gap-2 justify-center md:justify-start "><Image src="/map-pin-alt-svgrepo-com.svg" alt="map icon" width={23} height={23}
                 className="object-contain  inline-block invert"/>
               <span>Linsedt,23/234, London ,Dhaka</span>
@@ -88,6 +88,8 @@ export default function Footer() {
        
 
       </div>
+      <br/>
+      <br/>
 
     {/* 2nd div*/ }
       <div className="flex flex-col md:flex-row w-full  justify-start  py-3 md:text-left text-center  gap-5 md:gap-90">
@@ -117,12 +119,12 @@ export default function Footer() {
       {/*3rd div */}
 
       <div className="flex  flex-col-reverse md:flex-row  pt-10  justify-between items-center   gap-15 md:gap-50">
-        <div className="text-sm text-white">
+        <div className="text-xs text-white">
             © 2023, Fooddeliver - Sustainable Food To Your Door All rights reserved
         </div>
           
         <div className="flex flex-col ">
-            <div className="text-md text-white">Secured Payment Gateways</div>
+            <div className=" text-xs md:text-md text-white">Secured Payment Gateways</div>
             <div className="flex flex-row w-full  justify-center md:justify-baseline   px-20 gap-5">
                  <Image src="/visa-svgrepo-com.svg" alt="playstore" width={50} height={50}
                    className="object-contain"/>

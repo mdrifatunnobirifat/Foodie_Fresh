@@ -10,7 +10,7 @@ const Item=[
 ]
 
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center px-0 py-10 ">
+    <div className="flex flex-col lg:flex-row items-center justify-center px-3 py-10 ">
 {/* Left*/}
       <div className=" flex flex-col w-full lg:w-1/2  items-center lg:items-baseline-last text-center lg:text-center ml-0 lg:ml-10 ">
         <h1 className=" text-xl md:text-3xl  lg:text-4xl font-bold text-emerald-950 text-left">Who We Are & <br/>What We Do</h1>
