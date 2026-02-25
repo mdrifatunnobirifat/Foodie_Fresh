@@ -12,9 +12,9 @@ const Item=[
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center px-3 py-10 ">
 {/* Left*/}
-      <div className=" flex flex-col w-full lg:w-1/2  items-center lg:items-baseline-last text-center lg:text-center ml-0 lg:ml-10 ">
-        <h1 className=" text-xl md:text-3xl  lg:text-4xl font-bold text-emerald-950 text-left">Who We Are & <br/>What We Do</h1>
-        <p className="text-gray-700">Welcome to our delivery service.<br/>Welcome to our delivery service.</p>
+      <div className=" flex flex-col w-full lg:w-1/2  items-center lg:items-baseline-last text-center lg:text-center ml-0 lg:ml-10 py-3 gap-2 ">
+        <h1 className=" text-xl lg:text-3xl font-bold text-emerald-950 text-left">Who We Are & <br/>What We Do</h1>
+        <p className="text-gray-700 text-xs md:text-sm text-center lg:text-left max-w-md">Welcome to our delivery service.<br/>Welcome to our delivery service.</p>
          <div className="flex flex-col items-center lg:items-start space-y-4   w-full md:w-lg mx-auto lg:mx-0 ">
 
             {Item.map((item)=>(

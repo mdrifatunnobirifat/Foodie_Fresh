@@ -15,21 +15,21 @@ export default function Hero() {
       </div>
       <div className="relative flex justify-center overflow-hidden">
         <div
-          className="bg-[#1B2E27] w-full 2xl:w-[130vh]   h-[50vh] md:h-[55vh]  2xl:h-[50vh] rounded-t-full"
+          className="bg-[#1B2E27] w-full 2xl:w-[130vh]   h-[30vh] md:h-[55vh]  2xl:h-[50vh]"
           style={{
           
             borderRadius: "60% 60% 0 0 / 40% 40% 0 0",
           }}
         />
         <div className="absolute bottom-0  translate-y-1/3 w-full flex justify-center items-center">
-      <Image 
-        src="/b6ef1cc1-9990-4b22-9688-35e909ed0acd-removebg-preview.png" 
-        alt="shopping bag" 
-        width={500} 
-        height={500}
-        className="object-contain w-[90%] md:w-[60%] lg:w-[50%] h-auto"
-      />
-    </div>
+          <Image 
+            src="/b6ef1cc1-9990-4b22-9688-35e909ed0acd-removebg-preview.png" 
+            alt="shopping bag" 
+            width={500} 
+            height={500}
+            className="object-contain w-[60%] md:w-[50%] lg:w-[40%] 2xl:w-[35%]  h-auto  md:h-[35%] lg:h-[40%]"
+          />
+        </div>
       </div>
     </div>
   );

@@ -40,7 +40,7 @@ export default function Navbar() {
                <HamburgerMenu />
             </div>
         
-          <button className="hidden xl:block bg-emerald-800 text-white px-4 py-2 lg:px-6 lg:py-3 rounded-full text-sm  lg:text-base md:text-base hover:bg-emerald-700 transition whitespace-nowrap">
+          <button className="hidden xl:block text-xs md:text-sm bg-emerald-800 text-white px-2  md:px-6  py-1 md:py-2  rounded-full  text-md hover:bg-emerald-700 transition  whitespace-nowrap ">
              Partner with us
           </button>
        

@@ -31,7 +31,7 @@ export default function LetsWorkcard({icon,title,description}:LetsWorkscardProps
             </p>
           </div>
 
-          <button className="text-xs md:text-xs bg-emerald-800 text-white px-2  md:px-3 lg:px-5  py-1 md:py-2  rounded-full  text-md hover:bg-emerald-700 transition  whitespace-nowrap  ">
+          <button className="text-xs md:text-sm bg-emerald-800 text-white px-2  md:px-6  py-1 md:py-2  rounded-full  text-md hover:bg-emerald-700 transition  whitespace-nowrap ">
                 Get started
             </button>
 

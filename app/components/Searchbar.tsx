@@ -12,7 +12,7 @@ export default function Searchbar() {
                 <input  type="address" placeholder="Enter address to find nearby shops " className="w-full p-1  md:p-3 text-xs md:text-base outline-none bg-transparent text-gray-700 placeholder-gray-900 text-center md:text-left"/>
            </div>
            <div className="flex ">
-               <button className="bg-emerald-800 text-white px-2 py-2 md:px-6 md:py-3 rounded-full text-xs md:text-md ">Shop now</button>
+               <button className="text-xs md:text-sm bg-emerald-800 text-white px-2  md:px-6  py-1 md:py-2  rounded-full  text-md hover:bg-emerald-700 transition  whitespace-nowrap ">Shop now</button>
            </div>
            <div>
             
