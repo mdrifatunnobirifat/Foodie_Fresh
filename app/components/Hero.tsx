@@ -15,7 +15,7 @@ export default function Hero() {
       </div>
       <div className="relative flex justify-center overflow-hidden">
         <div
-          className="bg-[#1B2E27] w-full 2xl:w-[130vh]   h-[30vh] md:h-[55vh]  2xl:h-[50vh]"
+          className="bg-[#1B2E27] w-full 2xl:w-full   h-[30vh] md:h-[55vh]  2xl:h-[50vh]"
           style={{
           
             borderRadius: "60% 60% 0 0 / 40% 40% 0 0",
