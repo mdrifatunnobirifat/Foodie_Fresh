@@ -13,10 +13,10 @@ export default function WeAlways() {
     <div className="bg-[#1b4332] text-white px-4 lg:px-20 font-sans pt-5 flex flex-col w-screen ">
       
       <div className="text-center w-full pb-10 lg:pb-15 ">
-        <h1 className="text-xl lg:text-3xl md:text-2xl font-bold p-4">
+        <h1 className="text-xl lg:text-3xl font-sans font-bold p-4">
           We Always Provide <br /> You The Best In Town
         </h1>
-        <p className="text-gray-300 text-sm md:text-md lg:text-lg leading-relaxed max-w-lg mx-auto">
+        <p className=" font-sans text-gray-300 text-xs md:text-sm lg:text-md leading-relaxed max-w-lg mx-auto">
           isu dbci dfuh viudfv diuvd viud iuc ce rue cry crytguc ceyrg
         </p>
       </div>

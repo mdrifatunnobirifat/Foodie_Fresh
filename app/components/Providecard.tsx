@@ -23,10 +23,10 @@ export function Providecard({ title, description, icon }: ProvideCardProps) {
 
     
       <div className="flex flex-col items-center text-center px-2">
-        <h3 className="font-bold text-md md:text-lg lg:text-xl text-[#1b4332] group-hover:text-amber-400 transition-colors ">
+        <h3 className="font-bold font-sans text:xs md:text-lg lg:text-xl text-[#1b4332] group-hover:text-amber-400 transition-colors ">
           {title}
         </h3>
-        <p className="text-sm md:text-md lg:text-lg text-[#2d5a44] group-hover:text-amber-400 transition-colors leading-relaxed ">
+        <p className="font-sans text-xs md:text-sm text-[#2d5a44] group-hover:text-amber-400 transition-colors leading-relaxed ">
           {description}
         </p>
       </div>

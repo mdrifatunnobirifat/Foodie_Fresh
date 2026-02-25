@@ -10,7 +10,7 @@ export default function LetsWorkTogether() {
     return (
         <div className="flex flex-col items-center justify-center px-0 py-10 ">
             <div>
-                <h1 className=" text-xl md:text-2xl  lg:text-3xl font-bold font-sans text-emerald-950 text-center ">Let's Work Together As <br/> Partner Or As Rider</h1>
+                <h1 className=" text-xl lg:text-3xl font-bold font-sans text-emerald-950 text-center ">Let's Work Together As <br/> Partner Or As Rider</h1>
                 <p className="text-gray-700  font-sans text-xs md:text-sm text-center ">nksx cuni cnidu xicn idu cnidu xicn idu cnidu xicn idu <br/>unsu  cnidu xicn iducnidu xicn iduxyb  xtc yc uidr ien xyg </p>
             </div>
 

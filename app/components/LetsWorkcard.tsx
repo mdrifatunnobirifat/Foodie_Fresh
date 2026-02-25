@@ -23,10 +23,10 @@ export default function LetsWorkcard({icon,title,description}:LetsWorkscardProps
     
         
           <div className="flex flex-col  text-left px-3 py-5 ">
-            <h3 className="font-bold text-lg md:text-xl lg:text-2xl font-sans text-[#1b4332] group-hover:text-amber-400 transition-colors ">
+            <h3 className="font-bold  text-lg md:text-xl lg:text-2xl font-sans text-[#1b4332] group-hover:text-amber-400 transition-colors ">
               {title}
             </h3>
-            <p className="text-xs md:text-sm lg:text-md text-[#2d5a44] group-hover:text-amber-400 transition-colors leading-relaxed ">
+            <p className="font-sans text-xs md:text-sm  text-[#2d5a44] group-hover:text-amber-400 transition-colors leading-relaxed ">
               {description}
             </p>
           </div>

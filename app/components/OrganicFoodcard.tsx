@@ -18,7 +18,7 @@ export default function OrganicFoodcard({h}:CardProps)
         />
       </div>
       <div className="  px-1 flex-1">
-        <h5 className="font-bold text-xs lg:text-base text-emerald-950 group-hover:text-white">{h}</h5>
+        <h5 className="font-bold font-sans text-xs lg:text-base text-emerald-950 group-hover:text-white">{h}</h5>
       </div>
     </div>
   );

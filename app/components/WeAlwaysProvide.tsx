@@ -22,9 +22,9 @@ export default function WeAlwaysProvide() {
             <div className="flex flex-col  w-full lg:w-xl  justify-center py-4 ">
                  <div className="h-px  w-full lg:w-xl bg-emerald-800 " />
                  <div className="flex  flex-row  text-center  justify-center w-full gap-4 md:gap-7 lg:gap-20">
-                    <h1 className="font-sans py-3 text-xs md:text-md lg:text-xl font-bold text-emerald-950  sm:text-center "><span className="text-xs md:text-md lg:text-xl font-bold text-emerald-500 text-left  ">5+ </span>Years Experience</h1>
-                    <h1 className="font-sans py-3 text-xs md:text-md lg:text-xl font-bold text-emerald-950  sm:text-center"><span className=" text-xs md:text-md lg:text-xl  font-bold text-emerald-500 text-left ">100+ </span> Young Riders</h1>
-                    <h1 className="font-sans py-3 text-xs md:text-md lg:text-xl font-bold text-emerald-950  sm:text-center"><span className=" text-xs md:text-md lg:text-xl  font-bold text-emerald-500 text-left ">5K+ </span> Regular Customers </h1>
+                    <h1 className="font-sans py-3 text-xs md:text-md lg:text-xl font-bold text-emerald-950  sm:text-center "><span className="text-xs md:text-md lg:text-xl font-sans font-bold text-emerald-500 text-left  ">5+ </span>Years Experience</h1>
+                    <h1 className="font-sans py-3 text-xs md:text-md lg:text-xl font-bold text-emerald-950  sm:text-center"><span className=" text-xs md:text-md lg:text-xl font-sans font-bold text-emerald-500 text-left ">100+ </span> Young Riders</h1>
+                    <h1 className="font-sans py-3 text-xs md:text-md lg:text-xl font-bold text-emerald-950  sm:text-center"><span className=" text-xs md:text-md lg:text-xl font-sans font-bold text-emerald-500 text-left ">5K+ </span> Regular Customers </h1>
                  </div>
                  <div className="h-px  w-full   bg-emerald-800 " />
             </div>   
