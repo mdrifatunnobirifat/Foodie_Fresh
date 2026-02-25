@@ -71,7 +71,7 @@ export default function OrganicFoods() {
                 <div className="w-px  sm:h-30 lg:h-50 bg-emerald-800 m-auto  " />
 
                 <div className="bg-white py-15 px-18 text-left ">
-                    <h1 className="text-xl md:text-2xl   lg:text-3xl font-bold font-sans text-emerald-950 ">More Than<br/>50 Products </h1>
+                    <h1 className="text-xl  lg:text-3xl font-bold font-sans text-emerald-950 ">More Than<br/>50 Products </h1>
                     <p className="text-gray-700  font-sans text-xs md:text-sm  max-w-md">Organic Fresh Foods <br/> fresh foods fresh foods<br/> food amijc ciux idn uxh</p><br/>
                     <div className="flex  flex-row text-sm  gap-10">
                        <div>
